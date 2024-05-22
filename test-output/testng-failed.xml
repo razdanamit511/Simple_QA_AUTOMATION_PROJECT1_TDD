@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="author1" value="Amit"/>
+  <parameter name="device1" value="Windows 10"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test5(failed)">
+    <classes>
+      <class name="com.qa.testcases.ts005.TS005_TC005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Suite_StartUp"/>
+          <include name="Suite_TearDown"/>
+          <include name="setup"/>
+          <include name="TS005_TC005"/>
+          <include name="Method_TearDown"/>
+          <include name="Method_StartUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ts005.TS005_TC005 -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite] -->

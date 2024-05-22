@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="browser" value="chrome"/>
+	<parameter name="author1" value="Amit"/>
+	<parameter name="device1" value="Windows 10"/>
+	<!-- 	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="com.qa.testcases.ts001.TS001_TC001" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC002" /> 
+		    <class name="com.qa.testcases.ts001.TS001_TC003" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC005" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC006" />
+		</classes>
+	</test> 
+	Test -->
+
+
+	<!--	<test thread-count="5" name="Test2">
+		<classes>
+					<class name="com.qa.testcases.ts001.TS001_TC001" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC002" /> 
+		    <class name="com.qa.testcases.ts001.TS001_TC003" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC005" /> 
+			<class name="com.qa.testcases.ts002.TS002_TC001" />
+			<class name="com.qa.testcases.ts002.TS002_TC002" />
+			<class name="com.qa.testcases.ts002.TS002_TC003" />
+			<class name="com.qa.testcases.ts002.TS002_TC004" />
+			<class name="com.qa.testcases.ts002.TS002_TC005" />
+		</classes>
+	</test> 
+	Test -->
+
+	<!-- 	<test thread-count="5" name="Test3">
+		<classes>
+					<class name="com.qa.testcases.ts001.TS001_TC001" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC002" /> 
+		    <class name="com.qa.testcases.ts001.TS001_TC003" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC005" /> 
+			<class name="com.qa.testcases.ts002.TS002_TC001" />
+			<class name="com.qa.testcases.ts002.TS002_TC002" />
+			<class name="com.qa.testcases.ts002.TS002_TC003" />
+			<class name="com.qa.testcases.ts002.TS002_TC004" />
+			<class name="com.qa.testcases.ts003.TS003_TC001" />
+			<class name="com.qa.testcases.ts003.TS003_TC002" />
+			<class name="com.qa.testcases.ts003.TS003_TC003" />
+						<class name="com.qa.testcases.ts003.TS003_TC004" />
+		</classes>
+	</test>-->
+
+	<!--<test thread-count="5" name="Test4">
+		<classes>
+		<class name="com.qa.testcases.ts001.TS001_TC001" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC002" /> 
+		    <class name="com.qa.testcases.ts001.TS001_TC003" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC005" /> 
+			<class name="com.qa.testcases.ts002.TS002_TC001" />
+			<class name="com.qa.testcases.ts002.TS002_TC002" />
+			<class name="com.qa.testcases.ts002.TS002_TC003" />
+			<class name="com.qa.testcases.ts002.TS002_TC004" />
+			<class name="com.qa.testcases.ts003.TS1`003_TC001" />
+			<class name="com.qa.testcases.ts003.TS003_TC002" />
+			<class name="com.qa.testcases.ts003.TS003_TC003" />
+						<class name="com.qa.testcases.ts004.TS004_TC001" />
+			<class name="com.qa.testcases.ts004.TS004_TC002" />
+			<class name="com.qa.testcases.ts004.TS004_TC003" />
+						<class name="com.qa.testcases.ts004.TS004_TC004" />
+						<class name="com.qa.testcases.ts004.TS004_TC005" />
+		</classes>
+	</test> 
+	Test -->
+	
+	
+		<test thread-count="5" name="Test5">
+		<classes>
+			<!-- 		<class name="com.qa.testcases.ts001.TS001_TC001" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC002" /> 
+		    <class name="com.qa.testcases.ts001.TS001_TC003" />
+	     	<class name="com.qa.testcases.ts001.TS001_TC005" /> 
+			<class name="com.qa.testcases.ts002.TS002_TC001" />
+			<class/html/body name="com.qa.testcases.ts002.TS002_TC002" />
+			<class name="com.qa.testcases.ts002.TS002_TC003" />
+			<class name="com.qa.testcases.ts002.TS002_TC004" />
+			<class name="com.qa.testcases.ts003.TS003_TC001" />
+			<class name="com.qa.testcases.ts003.TS003_TC002" />
+			<class name="com.qa.testcases.ts003.TS003_TC003" />
+						<class name="com.qa.testcases.ts004.TS004_TC001" />
+			<class name="com.qa.testcases.ts004.TS004_TC002" />
+			<class name="com.qa.testcases.ts004.TS004_TC003" />
+						<class name="com.qa.testcases.ts004.TS004_TC004" />
+						<class name="com.qa.testcases.ts005.TS005_TC001" />
+								<class name="com.qa.testcases.ts005.TS005_TC002" />
+			<class name="com.qa.testcases.ts005.TS005_TC003" />
+						<class name="com.qa.testcases.ts005.TS005_TC004" />
+							<class name="com.qa.testcases.ts005.TS005_TC004" />-->
+							
+											<class name="com.qa.testcases.ts005.TS005_TC005" />
+		</classes>
+	</test> <!--
+	Test -->
+	
+
+</suite> <!--
+Suite -->
